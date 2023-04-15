@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    color: white;
+  
+    font-weight: 300;
+    padding: 40px;
+    padding-top: 60px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  #input-form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  input {
+    border: 0.5px solid white;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 5px 0;
+    margin-right: 60px;
+      border-radius: 3px;
+      min-width: 350px;
+    height: 35px;
+  }
+  
+  input:focus {
+    outline: none;
+  
+  }
+  
+  #error {
+    color: red;
+    /* visibility: hidden; */
+  }
+  
+  #success {
+    color: green;
+  }
+  
+  #add_user {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  
+  #initial {
+    color: gray;
+  
+  }
+  
+  .empCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    min-width: 400px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    height: 35px;
+  }
+  
+  .employeeOuterContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .delete-employee-button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 13px;
+    border-radius: 8px;
+    height: auto;
+  }
